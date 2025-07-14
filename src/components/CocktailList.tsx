@@ -12,13 +12,19 @@ const DrinkGrid = styled.div`
 `;
 
 const DrinkCard = styled.div`
-  width: 20vw;
-  margin: 1vw;
-  padding: 1vw;
-  border: 2px solid #ccc;
-  border-radius: 1vw;
-  background-color: #fff;
-  text-align: center;
+    width: 20vw;
+    margin: 1vw;
+    padding: 1vw;
+    border: 2px solid #ccc;
+    border-radius: 1vw;
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
 `;
 
 const DrinkImage = styled.img`
