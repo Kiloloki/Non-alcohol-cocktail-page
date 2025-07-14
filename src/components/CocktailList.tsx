@@ -12,7 +12,7 @@ const DrinkGrid = styled.div`
 `;
 
 const DrinkCard = styled.div`
-  width: 200px;
+  width: 20vw;
   margin: 1vw;
   padding: 1vw;
   border: 2px solid #ccc;
